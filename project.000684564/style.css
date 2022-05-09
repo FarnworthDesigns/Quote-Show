@@ -1,0 +1,51 @@
+/* Stylesheet */
+
+/* Import Google7emt */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+nav img {
+width:7em;
+
+}
+iframe {
+  padding:.5em;
+  border-style:none;
+}
+/* Apply Font */
+main {
+  font-family: 'VT323';
+  font-size: 5vmin;
+  text-align: center;
+  color:white;
+  /* Add contrast to text */
+  background-color: rgba(52, 36, 129, 0.75);
+}
+/* Apply Button Styling */
+button {
+  margin-bottom: 2em;
+  font-family: 'VT323';
+  font-size: 4vmin;
+  text-align: center;
+  color: white;
+  background-color: rgba(230, 46, 130);
+  padding: .5em 1em;
+  border-style: none;
+}
+button:hover {
+  color: #53a8ce;
+  background-color: white;
+  cursor: pointer;
+}
